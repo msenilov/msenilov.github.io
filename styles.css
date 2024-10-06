@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    text-align: center;
+    margin: 0;
+    
+}
+
+header nav {
+    text-align: center;
+    margin-top: 10px;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background: url('images/banner.png') no-repeat center center/cover;
+    height: 400px;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero h2 {
+    font-size: 48px;
+    text-shadow: 
+                -2px -2px 4px rgba(0, 0, 0, 0.5),  /* Less visible shadow */
+                 2px -2px 4px rgba(0, 0, 0, 0.5),
+                -2px  2px 4px rgba(0, 0, 0, 0.5),
+                 2px  2px 4px rgba(0, 0, 0, 0.5); /* Black outline with blur */
+}
+
+.hero p {
+    font-size: 24px;
+    margin-top: 10px;
+    text-shadow: 
+                -2px -2px 4px rgba(0, 0, 0, 0.5),  /* Less visible shadow */
+                 2px -2px 4px rgba(0, 0, 0, 0.5),
+                -2px  2px 4px rgba(0, 0, 0, 0.5),
+                 2px  2px 4px rgba(0, 0, 0, 0.5); /* Black outline with blur */
+}
+
+.blog-section {
+    background-color: #fff;
+    padding: 40px 0;
+}
+
+.blog-section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.blog-post {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px; /* Rounded corners for a softer look */
+}
+
+.blog-post img {
+    width: 100%; /* Full width for better visibility */
+    height: auto; /* Maintain aspect ratio */
+    max-height: 400px; /* Increased height for bigger images */
+    object-fit: cover; /* Crop the image to fit without stretching */
+    border-radius: 8px; /* Match the post box rounded corners */
+}
+
+.blog-post h3 {
+    margin: 15px 0;
+    color: #333;
+    font-size: 24px; /* Larger title for better visibility */
+}
+
+.short-description {
+    margin-bottom: 15px;
+    font-style: italic;
+    color: #666; /* Gray color for short description */
+}
+
+.read-more-btn {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.read-more-btn:hover {
+    background-color: #555;
+}
+
+.blog-content {
+    display: none;
+    margin-top: 15px;
+}
+
+.about-section, .contact-section, .review-section {
+    background-color: #fff;
+    padding: 40px 20px;
+    margin-bottom: 20px;
+}
+
+.about-section h2, .contact-section h2, .review-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-section p, .review-section p {
+    margin-bottom: 15px;
+}
+
+#contact-form, #review-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+}
+
+#contact-form label, #review-form label {
+    margin: 10px 0 5px;
+}
+
+#contact-form input, 
+#contact-form textarea, 
+#review-form input, 
+#review-form textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#contact-form button, 
+#review-form button {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contact-form button:hover, 
+#review-form button:hover {
+    background-color: #555;
+}
+
+#reviews-container {
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 30px;
+}
+
+footer p {
+    margin: 0;
+}

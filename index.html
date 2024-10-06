@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GadgetVerse - Tech Reviews & Gadgets</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>GadgetVerse</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#reviews">Reviews</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Welcome to GadgetVerse</h2>
+            <p>Your ultimate source for the latest in tech reviews and gadgets!</p>
+        </div>
+    </section>
+
+    <section id="reviews" class="blog-section">
+        <div class="container">
+            <h2>Latest Tech Reviews</h2>
+            <div id="blog-posts"></div> <!-- Placeholder for blog posts -->
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2>About GadgetVerse</h2>
+            <p>At GadgetVerse, we are passionate about technology and innovation. Our mission is to provide you with the latest news, reviews, and insights into the ever-evolving world of gadgets and tech. We believe in the power of technology to improve our lives and empower individuals to make informed decisions.</p>
+            <p>Our team consists of tech enthusiasts, industry experts, and dedicated writers who work tirelessly to bring you accurate and up-to-date information. From in-depth product reviews to insightful articles about trends in technology, GadgetVerse aims to be your go-to resource for all things tech.</p>
+            <p>Join us on our journey as we explore the latest advancements, discover new gadgets, and uncover the technology that shapes our world. Whether you’re a seasoned tech expert or just getting started, there’s something for everyone at GadgetVerse!</p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>If you have any questions, comments, or feedback, we would love to hear from you! Feel free to reach out using the contact form below, or you can contact us directly at:</p>
+            <p>Email: <strong>mikhailsenilov@gmail.com</strong></p>
+            <p>Phone: <strong>+44 07442060542</strong></p>
+
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="review-section" class="review-section">
+        <div class="container">
+            <h2>Customer Reviews</h2>
+            <div id="reviews-container"></div>
+            <h3>Submit Your Review</h3>
+            <form id="review-form">
+                <label for="review-name">Name:</label>
+                <input type="text" id="review-name" name="review-name" required>
+                
+                <label for="review-email">Email:</label>
+                <input type="email" id="review-email" name="review-email" required>
+                
+                <label for="review-message">Review:</label>
+                <textarea id="review-message" name="review-message" required></textarea>
+                
+                <button type="submit">Submit Review</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 GadgetVerse. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
